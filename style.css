@@ -97,5 +97,50 @@ button:hover {
 }
 
 
+.page {
+    padding: 35px 5%;
+}
+
+.page p {
+    color: #91a8c5;
+}
+
+.rstatus-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.rstatus-card {
+    background: #14243a;
+    border: 1px solid #2a4262;
+    border-radius: 12px;
+    padding: 22px;
+    transition: 0.2s;
+}
+.rstatus-card:hover{
+    border-color: #438cff;
+    transform: translateY(-3px);
+}
+
+.rstatus-card span{
+    color: #91a8c5;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.rstatus-card h2{
+    color: #54a5ff;
+    font-size: 29px;
+    margin: 14px 0 8px;
+}
+
+.rstatus-card p{
+    color: #91a8c5;
+    font-size: 12px;
+}
+
 
 
